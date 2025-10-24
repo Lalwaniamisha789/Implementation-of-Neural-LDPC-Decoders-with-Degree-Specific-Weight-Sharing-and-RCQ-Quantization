@@ -17,6 +17,15 @@ This implementation provides a comprehensive framework for neural LDPC decoding 
 - **Training Framework**: Posterior joint training to address gradient explosion
 - **Simulation Framework**: Comprehensive performance evaluation tools
 
+<p align="center">
+  <img src="images/fer_comparison.png" alt="FER Comparison" width="48%">
+  <img src="images/ber_comparison.png" alt="BER Comparison" width="48%">
+</p>
+
+*Figure 1: FER and BER performance comparison across different decoders.*
+
+---
+
 ## Key Contributions Implemented
 
 ### 1. Node-Degree-Based Weight Sharing
@@ -25,10 +34,26 @@ This implementation provides a comprehensive framework for neural LDPC decoding 
 - **Type 3**: Only check node degree based weights
 - **Type 4**: Only variable node degree based weights
 
+<p align="center">
+  <img src="images/weight_pattern_analysis.png" alt="Weight Pattern Analysis" width="70%">
+</p>
+
+*Figure 2: Visualization of learned weight evolution across iterations and node degrees.*
+
+---
+
 ### 2. Posterior Joint Training
 - Addresses gradient explosion issues in neural LDPC decoder training
 - Uses only posterior information for gradient computation
 - Prevents large-magnitude gradients from propagating to preceding layers
+
+<p align="center">
+  <img src="images/gradient_analysis.png" alt="Gradient Analysis" width="70%">
+</p>
+
+*Figure 3: Gradient magnitude analysis — posterior joint training vs. standard training.*
+
+---
 
 ### 3. RCQ Decoding
 - Non-uniform quantization with power function thresholds
@@ -39,6 +64,8 @@ This implementation provides a comprehensive framework for neural LDPC decoding 
 - Combines neural weights with RCQ quantization
 - Reduces hardware requirements compared to standard RCQ
 - Maintains comparable performance with fewer quantizer pairs
+
+---
 
 ## File Structure
 
@@ -244,6 +271,10 @@ Where:
 
 ## Performance Results
 
+<p align="center"> <img src="images/fer_comparison.png" alt="FER Curve" width="48%"> <img src="images/ber_comparison.png" alt="BER Curve" width="48%"> </p>
+
+Figure 4: Frame Error Rate (FER) and Bit Error Rate (BER) performance comparison.
+
 Based on the paper's results:
 
 - **N-2D-NMS Type 2** achieves similar performance to full neural MinSum with only 8 parameters per iteration
@@ -277,6 +308,21 @@ python training_framework.py
 python simulation_framework.py
 ```
 
+## Visual Summary
+
+<p align="center">
+  <img src="images/fer_comparison.png" width="30%">
+  <img src="images/ber_comparison.png" width="30%">
+  <img src="images/gradient_analysis.png" width="30%">
+</p>
+<p align="center">
+  <img src="images/parameter_comparison.png" width="30%">
+  <img src="images/weight_pattern_analysis.png" width="30%">
+</p>
+
+*Figure 6: Summary of key analysis plots used in the IEEE report.*
+
+
 ## Citation
 
 If you use this implementation, please cite the original paper:
@@ -299,5 +345,6 @@ This implementation is provided for research and educational purposes. Please re
 Contributions are welcome! Please feel free to submit issues, feature requests, or pull requests.
 
 ## Acknowledgments
+
 
 This implementation is based on the work of Linfang Wang, Caleb Terrill, Richard Wesel, and Dariush Divsalar. The original paper can be found at: https://arxiv.org/abs/2310.15483v2
