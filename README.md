@@ -273,7 +273,9 @@ Where:
 
 <p align="center"> <img src="images/fer_comparison.png" alt="FER Curve" width="48%"> <img src="images/ber_comparison.png" alt="BER Curve" width="48%"> </p>
 
-Figure 4: Frame Error Rate (FER) and Bit Error Rate (BER) performance comparison.
+*Figure 4: Frame Error Rate (FER) and Bit Error Rate (BER) performance comparison.*
+
+---
 
 Based on the paper's results:
 
@@ -348,3 +350,4 @@ Contributions are welcome! Please feel free to submit issues, feature requests, 
 
 
 This implementation is based on the work of Linfang Wang, Caleb Terrill, Richard Wesel, and Dariush Divsalar. The original paper can be found at: https://arxiv.org/abs/2310.15483v2
+
