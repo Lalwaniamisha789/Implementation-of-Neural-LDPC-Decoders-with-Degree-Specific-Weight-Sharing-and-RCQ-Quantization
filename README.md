@@ -78,8 +78,9 @@ This implementation provides a comprehensive framework for neural LDPC decoding 
 ├── simulation_framework.py  # Performance evaluation and simulation tools
 ├── examples.py              # Comprehensive examples and test cases
 ├── comprehensive_test.py    # Comprehensive test script for all decoders
-├── ieee_report.tex          # IEEE-style LaTeX report
-└── README.md               # This file
+├── Report                   # IEEE-style LaTeX report
+├── Images                   # images
+└── README.md                # This file
 ```
 
 ## Installation
@@ -350,4 +351,5 @@ Contributions are welcome! Please feel free to submit issues, feature requests, 
 
 
 This implementation is based on the work of Linfang Wang, Caleb Terrill, Richard Wesel, and Dariush Divsalar. The original paper can be found at: https://arxiv.org/abs/2310.15483v2
+
 
