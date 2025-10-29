@@ -1119,49 +1119,6 @@ Training plots:
 - Gradient magnitude plots
 - Comparison with standard training
 
-**D. Ablation Studies**
-
-Individual component analysis:
-- Weight sharing alone
-- RCQ alone
-- Combined W-RCQ
-- Posterior training impact
-
-#### Section IX: Validation
-
-**A. Comparison with Paper Results**
-
-Side-by-side comparison:
-- Paper's FER curves
-- Implementation's FER curves
-- Numerical differences
-- Explanation of discrepancies
-
-**B. Statistical Significance**
-
-Confidence intervals:
-- 95% confidence bounds
-- Number of trials
-- Statistical tests
-
-#### Section X: Discussion
-
-**A. Implementation Challenges**
-
-Issues encountered:
-- Memory management for large codes
-- Numerical stability in quantization
-- Training convergence tricks
-- Optimization for performance
-
-**B. Design Decisions**
-
-Rationale for choices:
-- PyTorch vs TensorFlow
-- Data structures
-- Algorithmic variants
-- Testing strategy
-
 **C. Lessons Learned**
 
 Insights gained:
@@ -1172,57 +1129,17 @@ Insights gained:
 
 #### Section XI: Conclusion
 
-**A. Summary of Achievements**
-✅ All algorithms implemented
-✅ Results match paper
-✅ Comprehensive documentation
-✅ Production-ready code
-
-**B. Impact**
+**A. Impact**
 - Enables practical neural LDPC decoders
 - Reduces hardware barriers
 - Facilitates further research
 
-**C. Future Work**
-
+**B. Future Work**
 Potential extensions:
 1. Longer block lengths
 2. Different code families
 3. Hardware prototyping
 4. Real-world deployment
-
-#### References
-
-Comprehensive bibliography:
-- Original paper
-- LDPC foundational papers
-- Neural decoder papers
-- Quantization literature
-- Training methodology papers
-- Software documentation
-
-#### Appendix A: Code Listings
-
-Selected important code sections:
-- MinSum update function
-- Weight sharing implementation
-- Quantization functions
-- Training loop
-
-#### Appendix B: Additional Figures
-
-Supplementary visualizations:
-- Weight heatmaps
-- Gradient flow diagrams
-- Convergence comparisons
-- Error pattern analysis
-
-#### Appendix C: Mathematical Derivations
-
-Detailed math:
-- Posterior training gradient derivation
-- Quantization threshold optimization
-- MinSum approximation error analysis
 
 ---
 
@@ -1245,41 +1162,4 @@ Detailed math:
 - Provides baseline for comparisons
 - Demonstrates effective ML for communications
 
-### From the IEEE Report
-
-**Implementation Contributions:**
-1. **Complete software**: All algorithms implemented
-2. **Validated results**: Match paper performance
-3. **Extensible framework**: Easy to modify and extend
-4. **Well-documented**: Code and usage examples
-
-**Educational Value:**
-- Clear explanation of concepts
-- Working code examples
-- Comprehensive testing
-- Documentation at multiple levels
-
-**Practical Utility:**
-- Ready for deployment
-- Modular design
-- Performance optimized
-- Well-tested
-
 ---
-
-## Summary
-
-This implementation provides:
-- ✅ Complete realization of paper's algorithms
-- ✅ Validated performance matching paper
-- ✅ Production-ready code quality
-- ✅ Comprehensive documentation
-- ✅ Educational resources
-- ✅ Extension framework for research
-
-The paper introduces groundbreaking techniques that make neural LDPC decoders practical. This implementation makes those techniques accessible and usable.
-
----
-
-**Last Updated**: October 2024
-**Based on**: arXiv:2310.15483v2
