@@ -1430,24 +1430,24 @@ Decoder B needs 3.0 dB
 This repository provides a complete, production-ready implementation of state-of-the-art neural LDPC decoders. Key achievements:
 
 ### Technical Achievements
-✅ **Parameter Reduction**: 60,000× fewer parameters with Type 2 sharing
-✅ **Performance**: Within 0.3 dB of full neural decoder  
-✅ **Quantization**: 3-4 bit operation with minimal loss
-✅ **Training Stability**: Gradient explosion completely solved
-✅ **Hardware Ready**: Low-bitwidth, efficient architecture
+**Parameter Reduction**: 60,000× fewer parameters with Type 2 sharing
+**Performance**: Within 0.3 dB of full neural decoder  
+**Quantization**: 3-4 bit operation with minimal loss
+**Training Stability**: Gradient explosion completely solved
+**Hardware Ready**: Low-bitwidth, efficient architecture
 
 ### Implementation Quality
-✅ **Complete**: All algorithms from paper implemented
-✅ **Tested**: Comprehensive test suite with validation
-✅ **Documented**: Extensive code comments and documentation
-✅ **Modular**: Clean architecture, easy to extend
-✅ **Reproducible**: Training framework and simulation tools
+**Complete**: All algorithms from paper implemented
+**Tested**: Comprehensive test suite with validation
+**Documented**: Extensive code comments and documentation
+**Modular**: Clean architecture, easy to extend
+**Reproducible**: Training framework and simulation tools
 
 ### Educational Value
-✅ **Well-Commented**: Every function explained
-✅ **Examples**: Multiple usage examples provided
-✅ **Visualizations**: Performance plots and analysis tools
-✅ **Documentation**: This comprehensive guide
+**Well-Commented**: Every function explained
+**Examples**: Multiple usage examples provided
+**Visualizations**: Performance plots and analysis tools
+**Documentation**: This comprehensive guide
 
 ### Practical Impact
 - Enables neural LDPC decoders for long-blocklength codes
