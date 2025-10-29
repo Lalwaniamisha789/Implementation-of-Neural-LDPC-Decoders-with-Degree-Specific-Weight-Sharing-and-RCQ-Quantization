@@ -6,7 +6,7 @@ This repository implements the algorithms and methods described in the paper:
 *Linfang Wang, Caleb Terrill, Richard Wesel, and Dariush Divsalar*  
 arXiv:2310.15483v2 [eess.SP] 5 Dec 2023
 
-## 📚 Complete Documentation Available!
+## Complete Documentation Available!
 
 **Three comprehensive documentation files explain everything in this repository:**
 
@@ -15,12 +15,12 @@ arXiv:2310.15483v2 [eess.SP] 5 Dec 2023
 3. **[PAPER_AND_REPORT_EXPLANATION.md](PAPER_AND_REPORT_EXPLANATION.md)** - Detailed paper and report analysis
 
 **These documents explain:**
-- ✅ Every code file in detail
-- ✅ How to use each component
-- ✅ The research paper (2310.15483v2.pdf)
-- ✅ The IEEE report (Report/ITIL_PROJECT.pdf)
-- ✅ All algorithms and mathematics
-- ✅ Usage examples and best practices
+- Every code file in detail
+- How to use each component
+- The research paper (2310.15483v2.pdf)
+- The IEEE report (Report/ITIL_PROJECT.pdf)
+- All algorithms and mathematics
+- Usage examples and best practices
 
 **→ [Start Reading the Documentation](COMPLETE_GUIDE.md) ←**
 
@@ -371,5 +371,6 @@ Contributions are welcome! Please feel free to submit issues, feature requests, 
 
 
 This implementation is based on the work of Linfang Wang, Caleb Terrill, Richard Wesel, and Dariush Divsalar. The original paper can be found at: https://arxiv.org/abs/2310.15483v2
+
 
 
