@@ -847,54 +847,7 @@ Similar to convolutional neural networks:
 
 ---
 
-## IEEE Report Analysis
-
-### Report: ITIL_PROJECT.pdf
-
-The IEEE-style report in `Report/ITIL_PROJECT.pdf` provides a comprehensive documentation of the implementation project.
-
-#### Report Structure
-
-**Title Page:**
-- Project title
-- Authors
-- Institution
-- Date
-
-**Abstract:**
-Concise summary (150-200 words) of:
-- Problem addressed
-- Methods used
-- Key results
-- Conclusions
-
-#### Section I: Introduction
-
-**Subsections:**
-
-**A. Background**
-- LDPC codes in modern communications
-- Evolution from traditional to neural decoders
-- Motivation for parameter reduction
-
-**B. Problem Statement**
-- Parameter explosion in neural decoders
-- Hardware implementation challenges
-- Training instabilities
-
-**C. Objectives**
-1. Implement degree-specific weight sharing
-2. Develop RCQ quantization framework
-3. Create stable training methodology
-4. Validate against paper results
-
-**D. Contributions**
-- Complete implementation of all algorithms
-- Comprehensive testing framework
-- Performance validation
-- Documentation and examples
-
-#### Section II: System Model
+#### Summary
 
 **A. LDPC Code Definition**
 
@@ -935,7 +888,7 @@ Block diagram showing:
 - Quantization (for RCQ)
 - Output: Decoded bits
 
-#### Section III: Implementation Details
+#### Section II: Implementation Details
 
 **A. Software Architecture**
 
@@ -974,7 +927,7 @@ Explanation of:
 - Documentation standards
 - Testing approach
 
-#### Section IV: Neural Decoder Implementation
+#### Section III: Neural Decoder Implementation
 
 **A. Neural MinSum Decoder**
 
@@ -999,7 +952,7 @@ Differences from MinSum:
 - Clipping logic
 - Performance characteristics
 
-#### Section V: RCQ Quantization
+#### Section IV: RCQ Quantization
 
 **A. Quantizer Design**
 
@@ -1029,7 +982,7 @@ How neural weights and quantization combine:
 - Quantization boundaries
 - Error analysis
 
-#### Section VI: Training Framework
+#### Section V: Training Framework
 
 **A. Data Generation**
 
@@ -1068,7 +1021,7 @@ Step-by-step training:
 7. Validate
 8. Repeat
 
-#### Section VII: Experimental Setup
+#### Section VI: Experimental Setup
 
 **A. Test Codes**
 
@@ -1094,7 +1047,7 @@ Definitions and computation:
 - Execution time
 - Memory usage
 
-#### Section VIII: Results
+#### Section VII: Results
 
 **A. Weight Sharing Performance**
 
@@ -1119,7 +1072,7 @@ Training plots:
 - Gradient magnitude plots
 - Comparison with standard training
 
-**C. Lessons Learned**
+#### Section VIII: Lessons Learned
 
 Insights gained:
 - Importance of posterior training
@@ -1127,7 +1080,7 @@ Insights gained:
 - Performance optimization
 - Documentation practices
 
-#### Section XI: Conclusion
+#### Section IX: Conclusion
 
 **A. Impact**
 - Enables practical neural LDPC decoders
