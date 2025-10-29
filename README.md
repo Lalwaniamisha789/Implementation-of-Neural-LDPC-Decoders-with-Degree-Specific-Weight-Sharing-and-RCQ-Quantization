@@ -6,6 +6,26 @@ This repository implements the algorithms and methods described in the paper:
 *Linfang Wang, Caleb Terrill, Richard Wesel, and Dariush Divsalar*  
 arXiv:2310.15483v2 [eess.SP] 5 Dec 2023
 
+## 📚 Complete Documentation Available!
+
+**Three comprehensive documentation files explain everything in this repository:**
+
+1. **[COMPLETE_GUIDE.md](COMPLETE_GUIDE.md)** - Start here! Navigation guide and quick reference
+2. **[COMPREHENSIVE_DOCUMENTATION.md](COMPREHENSIVE_DOCUMENTATION.md)** - Complete code documentation and usage guide
+3. **[PAPER_AND_REPORT_EXPLANATION.md](PAPER_AND_REPORT_EXPLANATION.md)** - Detailed paper and report analysis
+
+**These documents explain:**
+- ✅ Every code file in detail
+- ✅ How to use each component
+- ✅ The research paper (2310.15483v2.pdf)
+- ✅ The IEEE report (Report/ITIL_PROJECT.pdf)
+- ✅ All algorithms and mathematics
+- ✅ Usage examples and best practices
+
+**→ [Start Reading the Documentation](COMPLETE_GUIDE.md) ←**
+
+---
+
 ## Overview
 
 This implementation provides a comprehensive framework for neural LDPC decoding with the following key features:
